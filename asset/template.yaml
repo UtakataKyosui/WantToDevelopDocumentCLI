@@ -1,0 +1,14 @@
+name: "Webアプリ（アイデア + API設計）"
+description: "プロジェクトのアイデアをWantにまとめ、基本的なAPI設計をDocsに含めるテンプレート"
+tags:
+  - web
+  - api
+  - idea
+
+want:
+  filename: "{{slug}}.md"
+  template: "want.md"
+
+docs:
+  - filename: "api-design.md"
+    template: "docs/api-design.md"
